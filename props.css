@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 50px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(243, 243, 243);
+  display: block;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.inp {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+}
+
+#age {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #858585;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.container {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#button1 {
+  margin-top: 10px;
+  background-color: #07c51a;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#button1:hover {
+  background-color: black;
+}
+
+#button2 {
+  margin-top: 10px;
+  background-color: #d3011d;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#button2:hover {
+  background-color: black;
+}
+
+.containervalue {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-left: -50px;
+}
+
+.containervalue img {
+  width: 20%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in;
+  cursor: pointer;
+}
+
+.containervalue img:hover {
+    transform:scale(1.05);
+    box-shadow: 0 0 30px rgb(136, 143, 241);
+    background-color: rgb(136, 143, 241);
+}
+
+#paper {
+  margin-left: 60px;
+}
+
+#scissors {
+  transform: rotate(90deg);
+}
+
+#scissors:hover{
+    transform: rotate(0deg);
+}
+
+#value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#valuetwo {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#valuetwo img{
+  border-radius: 10px;
+  padding: 40px;
+  width: 300px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+#valuetwo img:hover{
+  transform: scale(1.03);
+}
